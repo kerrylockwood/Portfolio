@@ -1,0 +1,45 @@
+.header{
+    background-color: mediumblue;
+    color: rgb(219, 184, 119);
+    text-align: center;
+}
+.navItem{
+    border: 1pt ridge blue;
+    padding: 1em 1em 1em 1em;
+    margin-left: -2.5em;
+    text-align: center;
+}
+.navItem a{
+    color: rgb(219, 184, 119);
+}
+.kerryPic{
+    height: 200pt;
+    width: 200pt;
+    border-radius: 100pt;
+    margin: 1em 1em 1em 1em;
+}
+ul{
+    list-style-type: none;
+}
+.projectList{
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+}
+
+.projectList img{
+    width: 90%;
+    border: 4pt solid rgb(219, 184, 119);
+}
+.rightSide hr{
+    height: 2pt;
+    color: rgb(219, 184, 119);
+}
+.footImage{
+    width: 30pt;
+}
+#email{
+    list-style-type: none;
+    background-color: mediumblue;
+    color: rgb(219, 184, 119);
+    text-align: center;
+}

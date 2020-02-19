@@ -3,24 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+    <title>Kerry Lockwood</title>
 </head>
 <body>
-<!-- Image and text -->
-<nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-      Bootstrap
-    </a>
-  </nav>
-
-
-
-    <!-- keep at bottom-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <div class="text-center header">
+                    <h1>Kerry</h1>
+                    <h1>Lockwood</h1>
+                    <img class="kerryPic" src="./assets/Kerry Lockwood.png" alt="Kerry Lockwood">
+                    <div>
+                        <ul style="list-style-type:none;">
+                            <li class="navItem"><a href="#aboutMe"><h5>About Me</h5></a></li>
+                            <li class="navItem"><a href="#projects"><h5>Projects</h5></a></li>
+                            <li class="navItem"><a href="#businessChallenges"><h5>Business Challenges</h5></a></li>
+                            <li class="navItem"><a href="#email"><h5>Let's Connect</h5></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 row rightSide">
+                <div id="aboutMe">
+                    <h3>About Me</h3>
+                    <p>I am a programmer with 20 years experience on a mid-range system (IBM i) using RPG who is successfully transitioning into .NET coding.</p>
+                </div>
+                <hr>
+                <!-- Projects -->
+                <div id="projects">
+                    <h3>Projects</h3>
+                    <p>Highlights of my HTML and CSS projects.</p>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 projectList">
+                        <ul class= "row">
+                            <li class= "col-lg-6">
+                                <a href="https://kerrylockwood.github.io/AngsKnits/"><img src="./assets/Angs Knits.png" alt="Ang's Knits"></a>
+                                <h5>Ang's Knits</h5>
+                                <p>This is Static Web page designed to highlight Angie's (my wife's) Knitting Projects</p>
+                            </li>
+                            <li class= "col-lg-6" >
+                                <a href="#"><img src="./assets/Creature.png" alt="Creature"></a>
+                                <h5>Creature</h5>
+                                <p>Just a fun project to create a new creature.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <!-- Business Challenges -->
+                <div id="businessChallenges">
+                    <h3>Business Challenges</h3>
+                    <p>Highlights of my .NET projects</p>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 projectList">
+                        <ul class= "row">
+                            <li class= "col-lg-6">
+                                <a href="#"><img src="./assets/Pair Console Game.png" alt="Pair Console Game"></a>
+                                <h5>Pair Console Game</h5>
+                                <p>A special thanks to my partner Justin Hess for his ideas and hard work.</p>
+                            </li>
+                            <li class= "col-lg-6" >
+                                <a href="#"><img src="./assets/Komodo Menu.png" alt="Komodo Menu"></a>
+                                <h5>Komodo Menu</h5>
+                                <p>A console program to Create, Read, Update and Delete Menu items and the ingredients of each Menu iem.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <!-- Let's Connect Email -->
+    <div id="email">
+        <h3>Let's Connect</h3>
+        <br>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 footerList">
+            <ul class= "row">
+                <li class= "col-md-4">
+                    <h5>kerrylockwood@yahoo.com</h5>
+                </li>
+                <li class= "col-md-3" >
+                    <h5>317-694-2011</h5>
+                </li>
+                <li class= "col-md-5" >
+                    <a href="www.linkedin.com/in/kerry-lockwood"></a>
+                    <h5><img src="./assets/LinkedIn img3.png" alt="www.linkedin.com/in/kerry-lockwood" class="footImage"> www.linkedin.com/in/kerry-lockwood</h5>
+                </li>
+            </ul>
+        </div>
+        <br>
+    </div>
+</footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
 </html>
