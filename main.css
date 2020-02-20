@@ -30,12 +30,31 @@ ul{
     width: 90%;
     border: 4pt solid rgb(219, 184, 119);
 }
-.rightSide hr{
-    height: 2pt;
-    color: rgb(219, 184, 119);
+.rightSideDiv{
+    /*border-top: solid 1pt blue;*/
+    border-top: solid 1pt rgb(219, 184, 119);
+}
+.rightSide{
+    margin-left: 4pt;
+}
+.footHR{
+    height: .25pt;
+    background-color: rgb(219, 184, 119);
+    margin-left: 4em;
+    margin-right: 4em;
 }
 .footImage{
     width: 30pt;
+}
+.btnLinkedIn{
+    background-color: mediumblue;
+    border-style: none;
+    color: rgb(219, 184, 119);
+}
+.btnLinkedIn:hover {
+    background-color: rgb(2, 2, 119);
+    border-radius: 4pt;
+    padding-top: 4pt;
 }
 #email{
     list-style-type: none;
