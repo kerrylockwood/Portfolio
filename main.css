@@ -1,10 +1,11 @@
 .header{
-    background-color: mediumblue;
+    background-color: darkblue;
     color: rgb(219, 184, 119);
     text-align: center;
 }
 .navItem{
-    border: 1pt ridge blue;
+    border-top: 1pt ridge mediumblue;
+    border-bottom: 1pt ridge mediumblue;
     padding: 1em 1em 1em 1em;
     margin-left: -2.5em;
     text-align: center;
@@ -30,12 +31,27 @@ ul{
     width: 90%;
     border: 4pt solid rgb(219, 184, 119);
 }
+.leftSide{
+    background-color: darkblue;
+}
 .rightSideDiv{
     /*border-top: solid 1pt blue;*/
     border-top: solid 1pt rgb(219, 184, 119);
 }
-.rightSide{
-    margin-left: 4pt;
+.rightside{
+    border-left: 1em;
+    padding-left: 1em;
+}
+.rightSide h3{
+    margin-left: .5em;
+    color: darkblue;
+}
+.rightSide h5{
+    color: darkblue;
+}
+.rightSide p{
+    margin-left: .9em;
+    margin-right: .5em;
 }
 .footHR{
     height: .25pt;
@@ -47,7 +63,7 @@ ul{
     width: 30pt;
 }
 .btnLinkedIn{
-    background-color: mediumblue;
+    background-color: darkblue;
     border-style: none;
     color: rgb(219, 184, 119);
 }
@@ -56,9 +72,36 @@ ul{
     border-radius: 4pt;
     padding-top: 4pt;
 }
+.rowParagraph{
+    text-align: left;
+}
+.EmailMe{
+    border: 1pt solid rgb(219, 184, 119);
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 1.5em;
+}
 #email{
     list-style-type: none;
-    background-color: mediumblue;
+    background-color: darkblue;
     color: rgb(219, 184, 119);
     text-align: center;
+    border-top: 1pt solid rgb(219, 184, 119);
+}
+#letsConnect{
+    width: 100%;   
+    margin-bottom: 1.5em;
+}
+#emailLabel{
+    margin-left: 2.6em;
+}
+#emailMsg{
+    width: 80%;
+    margin-left: 2.6em;
+}
+#emailButton{
+    margin-left: 2.6em;
+}
+#ContactInfoHead{
+    padding-top: .5em;
 }

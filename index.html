@@ -15,18 +15,19 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 leftSide">
                 <div class="text-center header">
                     <br>
                     <h1>Kerry</h1>
                     <h1>Lockwood</h1>
-                    <img class="kerryPic" src="./assets/Kerry Lockwood.png" alt="Kerry Lockwood">
+                    <img class="kerryPic" src="./assets/Kerry Lockwood.jpg" alt="Kerry Lockwood">
                     <div>
                         <ul style="list-style-type:none;">
                             <li class="navItem"><a href="#aboutMe"><h5>About Me</h5></a></li>
                             <li class="navItem"><a href="#projects"><h5>Projects</h5></a></li>
                             <li class="navItem"><a href="#businessChallenges"><h5>Business Challenges</h5></a></li>
-                            <li class="navItem"><a href="#email"><h5>Let's Connect</h5></a></li>
+                            <li class="navItem"><a href="#letsConnect"><h5>Let's Connect</h5></a></li>
+                            <li class="navItem"><a href="./assets/Kerry Eugene Lockwood resume.doc" download><h5>Download My Resume</h5></a></li>
                         </ul>
                     </div>
                 </div>
@@ -47,13 +48,17 @@
                         <ul class= "row">
                             <li class= "col-lg-6">
                                 <a href="https://kerrylockwood.github.io/AngsKnits/"><img src="./assets/Angs Knits.png" alt="Ang's Knits"></a>
+                                <br>
+                                <br>
                                 <h5>Ang's Knits</h5>
-                                <p>This is Static Web page designed to highlight Angie's (my wife's) Knitting Projects</p>
+                                <p class= "rowParagraph">This is Static Web page designed to highlight Angie's (my wife's) Knitting Projects</p>
                             </li>
                             <li class= "col-lg-6" >
                                 <a href="#"><img src="./assets/Creature.png" alt="Creature"></a>
+                                <br>
+                                <br>
                                 <h5>Creature</h5>
-                                <p>Just a fun project to create a new creature.</p>
+                                <p class= "rowParagraph">Just a fun project to create a new creature.</p>
                             </li>
                         </ul>
                     </div>
@@ -68,15 +73,61 @@
                         <ul class= "row">
                             <li class= "col-lg-6">
                                 <a href="https://github.com/kerrylockwood/PairConsoleGame/tree/master/Game" target="blank"><img src="./assets/Pair Console Game.png" alt="Pair Console Game"></a>
+                                <br>
+                                <br>
                                 <h5>Pair Console Game</h5>
-                                <p>A special thanks to my partner Justin Hess for his ideas and hard work.</p>
+                                <p class= "rowParagraph">A special thanks to my partner Justin Hess for his ideas and hard work.</p>
                             </li>
                             <li class= "col-lg-6" >
                                 <a href="https://github.com/kerrylockwood/SecondGold" target="blank"><img src="./assets/Komodo Menu.png" alt="Komodo Challenges"></a>
+                                <br>
+                                <br>
                                 <h5>Komodo Challenges</h5>
-                                <p>Three console programs tied together with a Main Menu. The programs to 1) maintain a cafe menu, 2) process claims and 3) maintain door access badges.</p>
+                                <p class= "rowParagraph">Three console programs tied together with a Main Menu. The programs to 1) maintain a cafe menu, 2) process claims and 3) maintain door access badges.</p>
+                            </li>
+                            <li class= "col-lg-6" >
+                                <a href="https://github.com/tjjarz/BASICdB" target="blank"><img src="./assets/BASICdB.png" alt="BASIC dB"></a>
+                                <br>
+                                <br>
+                                <h5>BASIC dB</h5>
+                                <p class= "rowParagraph">A group project to create and maintain data about Fictional Characters, the media in which they are found and items associated with them.</p>
                             </li>
                         </ul>
+                    </div>
+                </div>
+                <!--<hr class="rightSideHR">-->
+                <!-- Email Form -->
+                <div id="letsConnect" class="rightSideDiv">
+                    <br>
+                    <h3>Let's Connect</h3>
+                    <div class="EmailMe"">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/maybbdkk" method="post">
+                                <fieldset id="fs-frm-inputs">
+                                    <ul class= "row">
+                                        <li class= "col-lg-6">
+                                            <label for="full-name">Your Name</label>
+                                            <br>
+                                            <input type="text" name="name" id="full-name" placeholder="" required="">
+                                        </li>
+                                        <li class= "col-lg-6">
+                                            <label for="email-address">Your Email </label>
+                                            <br>
+                                            <input type="email" name="_replyto" id="email-address" placeholder="" required="">
+                                        </li>
+                                        <br>
+                                    </ul>
+                                    <div>
+                                        <label id="emailLabel" for="message">Message</label>    
+                                        <br>
+                                        <textarea id="emailMsg" rows="3" name="message" id="message" placeholder="" required=""></textarea>
+                                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                                    </div>
+                                </fieldset>
+                                <br>
+                                <input id="emailButton" type="submit" value="Submit">
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -86,15 +137,15 @@
 <footer>
     <!-- Let's Connect Email -->
     <div id="email">
-        <h3>Let's Connect</h3>
+        <h3 id="ContactInfoHead">Contact Info</h3>
         <hr class="footHR">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 footerList">
             <ul class= "row">
                 <li class= "col-md-4">
-                    <h5>kerrylockwood@yahoo.com</h5>
+                    <h5><img src="./assets/email.png" alt="kerrylockwood@yahoo.com" class="footImage"> kerrylockwood@yahoo.com</h5>
                 </li>
                 <li class= "col-md-3" >
-                    <h5>317-694-2011</h5>
+                    <h5><img src="./assets/Phone.png" alt="317-694-2011" class="footImage"> 317-694-2011</h5>
                 </li>
                 <li class= "col-md-5" >
                     <button class="btnLinkedIn" onclick="window.location.href = 'https://www.linkedin.com/in/kerry-lockwood/';">
